@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(8, 68, 70);
+}
+body{
+    background-color: none;
+    border-style: double;
+    font-family: serif;
+    text-align: center;
+}
+.artic p{
+    background-color: rgb(15, 87, 87);
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: justify;
+}/*
+article{
+    border-top: solid rgb(3, 150, 150);
+    border-top-right-radius: 60%;
+}*/
+.logo{
+    font-family: 'Fruktur', cursive;
+    height: 100px;
+    width: auto;
+}
+span:hover{
+    color: rgb(3, 150, 150);
+}
+.gate{
+    border-bottom: solid rgb(3, 150, 150);
+    border-bottom-left-radius: 50%; /* i'm not quite sure about this */
+}
+.navi{
+    box-sizing: unset;
+    color: rgb(255, 69, 0);
+    text-align: right;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 4px;
+    height: auto;
+    width: auto;
+    /*border: 1px black solid;*/
+}
+.navi ul li{
+    display: inline;
+    /*border: solid black 1px;*/
+    border-radius: 10%;
+    padding-left: 3px;
+}
+.navi ul li a:hover{
+    border: solid black 1px;
+    border-radius: 10%;
+    background-color: rgb(3, 150, 150);
+}
+li a{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 2px;
+    color: rgb(255, 69, 0);
+    text-decoration: none;
+    text-transform: capitalizes;
+}
+li a:active{
+    color: rgb(255, 69, 0);
+}
+.footer{
+    border-top: black solid 1px;
+    font-size: relative;
+}
+.footer p{
+    padding-top: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: justify;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+/* 
+this looks messy, anyway,
+maybe next time.
+*/
